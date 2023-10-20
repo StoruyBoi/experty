@@ -1,0 +1,142 @@
+
+:root{
+    --btn-color-send:#DCB0FE;
+    --footer-bg-color:#2E2E2E;
+    --input-checkbox:#2C3239;
+    --footer-small-text:#AFAFAF;
+    --footer-svg-clolor-social:#FAFAFA;
+    --footer-svg-dial:#7C7F8E;
+}
+footer {
+    flex-direction: column;
+    position: relative;
+    z-index: 222;
+    padding-top: 212px;
+    display: flex;
+    background: var(--footer-bg-color);
+}
+.footer-wraaper {
+    padding: 92px 37px;
+    margin: auto;
+    display: flex;
+    gap: 303px;
+}
+.fot-con1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fot-con1 h1{
+color: white;
+font-size: 1.8rem;
+font-weight: 500;
+}
+.fot-con1 p{
+color: var(--footer-small-text);
+font-size: 0.8rem;
+}
+
+.social-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-links svg{
+font-size: 1.2rem;
+fill: var(--footer-svg-clolor-social);
+}
+.sub-font-cont{
+    display: flex;
+
+}
+.sub-font-cont input{
+    padding: 10px;
+border: none;
+}
+.sub-font-cont button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 40px;
+    background: var(--btn-color-send);
+}
+.input-cont input{
+    outline: none;
+    background: var(--input-checkbox);
+
+}
+.input-cont{
+    display: flex;
+
+align-items: center;
+gap: 10px;}
+.infor-sub-cont{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.infor-sub-cont svg{
+   font-size: 1.3rem;
+   fill: var(--footer-svg-dial);
+}
+
+.footer-last-wraaper{
+border-top: 1px solid var(--footer-svg-dial);
+    display:flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+}
+.footer-last-wraaper p{
+    color: var(--footer-small-text);
+}
+.footer-last-wraaper p b{
+    color: rgb(255, 255, 255)    ;
+}
+.footer-last-wraaper ul li a{
+    font-size: 0.8rem;
+    color: var(--footer-small-text);
+}
+
+@media screen and (max-width:1391px) {
+    .footer-wraaper{
+        gap: 158px;
+    }
+    
+}
+@media screen and (max-width:965px) {
+    .footer-wraaper{
+        gap: 19px;
+    }
+    
+}
+@media screen and (max-width:675px) {
+    .footer-wraaper{
+        flex-wrap: wrap;
+        gap: 19px;
+    }
+    .footer-last-wraaper ul li a {
+        font-size: 0.6rem;
+        color: var(--footer-small-text);
+    }
+    .footer-last-wraaper p {
+        font-size: 0.7rem;
+        color: var(--footer-small-text);
+    }
+    .fot-con1 h1 {
+        color: white;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    .fot-con1 p {
+        color: var(--footer-small-text);
+        font-size: 0.5rem;
+    }    
+    .sub-font-cont input {
+        padding: 6px;
+        border: none;
+    }
+    
+}

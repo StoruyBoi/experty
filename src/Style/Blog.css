@@ -1,0 +1,128 @@
+.blog{
+    display: flex;
+   padding-top: 300px;
+
+}
+.blog-wraaper{
+    margin: auto;
+    padding: 20px;
+   
+}
+.blog-cont1 img{
+    width: 40vw;
+    object-fit: contain;
+}
+.blog-contnetn{
+    display: flex;
+    gap: 56px;
+}
+.blog-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Heading-blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Heading-blog h1 {
+    position: relative;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 400;
+    z-index: 44;
+
+}
+.blog-line {
+    top: 2px;
+    position: relative;
+    width: 82px;
+    z-index: 22;
+    /* top: 407px; */
+    top: 11px;
+    /* bottom: 1px; */
+    /* left: 450px; */
+    height: 14px;
+    right: 82px;
+    background: yellow;
+}
+.blog-cont1-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.blog-cont1-cont hr{
+    width: 70%;
+}
+.blog-cont1-cont p{
+   font-weight: 500;
+   font-size: 0.8rem;
+}
+.blog-cont1-cont h1{
+font-weight: 500;
+font-size: 1.5rem;
+}
+
+.blog-cont1 {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.update-section{
+
+    display: flex;
+}
+.update-wraaper {
+    z-index: 9999;
+    padding: 60px;
+    text-align: center;
+    display: flex;
+    top: 216px;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    background: #f5efff;
+    width: 70%;
+    margin: auto;
+}
+
+.update-button button{
+    background: #0c1219;
+    color: white;
+    border: none;
+    padding: 10px 60px;
+    border-radius: 7px;
+    font-size: 1rem;
+}
+.update-wraaper h1{
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width:618px) {
+    .blog-line{
+        display: none;
+    }
+    .blog-wraaper{
+        display: block;
+    }
+    
+}
+@media screen and (max-width:476px) {
+.blog-contnetn{
+    flex-direction: column;
+}
+.blog-cont1 img {
+    width: 91vw;
+    object-fit: contain;
+}
+    
+}
+@media screen and (max-width:445px) {
+    .update-wraaper{
+        padding: 28px;
+    }
+    
+}
