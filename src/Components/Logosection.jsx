@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../Style/Main.css";
 import amazon from "../source/amazon.png";
 import google from "../source/google.png";
 import altassian from "../source/atlassian.png";
